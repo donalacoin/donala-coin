@@ -65,3 +65,68 @@
 .center-margin {
     margin: 0 2%;
 }
+
+@media (max-width: 1250px) {
+    .fourth-section-container {
+        padding-top: 30px;
+        margin-top: 20px;
+        padding-bottom: 70px;
+    }
+    .contact-address-container {
+        border: 8px solid #fe2a2e;
+        font-size: 24px;
+    }
+    .fourth-section-title {
+        font-size: 60px;
+    }
+    .tokenomics-special-container {
+        font-size: 30px;
+        border: 8px solid #fe2a2e;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .fourth-section-container {
+        margin: 30px;
+    }
+    .fourth-section-title {
+        font-size: 48px;
+    }
+    .contact-address-container {
+        font-size: 20px;
+    }
+    .tokenomics-special-container {
+        font-size: 24px;
+    }
+    .copy-button-ca {
+        padding: 4px 30px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 520px) {
+    .fourth-section-container {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contact-address-container {
+        border: 6px solid #fe2a2e;
+        font-size: 14px;
+    }
+    .fourth-section-title {
+        font-size: 42px;
+    }
+    .tokenomics-special-container {
+        font-size: 16px;
+        border: 6px solid #fe2a2e;
+    }
+    .copy-button-ca {
+        padding: 3px 20px;
+        font-size: 18px;
+    }
+    .tokenomics-rest-weapper {
+        margin-top: 10px;
+    }
+}

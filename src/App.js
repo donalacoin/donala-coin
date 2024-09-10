@@ -6,6 +6,7 @@ import DonalaReel from './components/DonalaReel';
 import ThirdSection from './sections/ThirdSection';
 import RedStrip from './components/RedStrip';
 import FourthSection from './sections/FourthSection';
+import FifthSection from './sections/FifthSection';
 import './styles/app.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <RedStrip />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
     </div>
   );
 }

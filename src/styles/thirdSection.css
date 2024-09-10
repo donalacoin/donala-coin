@@ -49,3 +49,61 @@
 .buy-description {
     width: 90%;
 }
+
+@media (max-width: 1250px) {
+    .third-section-container {
+        padding-top: 70px;
+        margin-top: 40px;
+        padding-bottom: 70px;
+    }
+    .third-section-title h2 {
+        font-size: 60px;
+    }
+    .buy-item {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 800px) {
+    .third-section-title h2 {
+        font-size: 54px;
+    }
+    .buy-item {
+        font-size: 26px;
+        margin: 30px 0;
+    }
+    .third-section-container {
+        padding-top: 50px;
+        margin-top: 30px;
+        padding-bottom: 70px;
+    }
+    .buy-number-container {
+        width: 80px;
+    }
+}
+
+@media (max-width: 520px) {
+    .third-section-title h2 {
+        font-size: 40px;
+    }
+    .third-section-title {
+        margin: 0 40px;
+    }
+    .buy-item {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    .third-section-container {
+        padding-top: 50px;
+        margin-top: 28px;
+        padding-bottom: 40px;
+    }
+    .buy-number-container {
+        width: 70px;
+    }
+    .buy-number {
+        width: 40px;
+        height: 40px;
+
+    }
+}
