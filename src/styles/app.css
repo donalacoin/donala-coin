@@ -1,0 +1,25 @@
+/* @font-face {
+    font-family: 'EazyChat';
+    src: url('../assets/fonts/EazyChat-ax0m5.woff2') format('woff2'),
+            url('../assets/fonts/EazyChat-ax0m5.woff') format('woff'),
+            url('../assets/fonts/EazyChat-EaKDe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'YourDoodle';
+    src: url('../assets/fonts/Your_Doodle_Font.woff2') format('woff2'),
+            url('../assets/fonts/Your_Doodle_Font.woff') format('woff'),
+            url('../assets/fonts/Your_Doodle_Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'YourDoodle', sans-serif;
+}
+
+button {
+    font-family: 'YourDoodle', sans-serif;
+}

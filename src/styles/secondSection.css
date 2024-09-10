@@ -1,0 +1,31 @@
+.second-section-container {
+    margin-top: 250px;
+    color: #303c90;
+    padding: 50px 5%;
+}
+
+.second-section-title {
+    font-size: 80px;
+}
+
+.second-section-title h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.second-section-subsitle {
+    font-size: 40px;
+}
+
+.second-section-subsitle h3 {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.second-section-description {
+    margin-top: 20px;
+    font-size: 40px;
+    width: 80%;
+    /* margin-left: 10%; */
+
+}

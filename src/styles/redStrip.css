@@ -1,0 +1,21 @@
+.red-strip-container {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.red-strip-wrapper {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -10px;
+
+
+}
+
+.red-strip-image {
+    width: 100%;
+    height: auto;
+}

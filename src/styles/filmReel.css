@@ -1,0 +1,21 @@
+.film-reel-container {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.film-reel-wrapper {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -10px;
+
+
+}
+
+.film-reel-image {
+    width: 100%;
+    height: auto;
+}

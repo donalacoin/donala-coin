@@ -1,0 +1,67 @@
+.fourth-section-container {
+    margin: 50px;
+    color: #303c90;;
+    font-size: 40px;
+}
+
+.fourth-section-title {
+    font-size: 80px;
+}
+
+.fourth-section-title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.tokenomics-container {
+    margin-top: 20px;
+}
+
+.contact-address-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px solid #fe2a2e;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.contact-address-title {
+    width: 30%;
+}
+
+.contact-address-rest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copy-button-ca {
+    height: 100%;
+    background: #303c90;
+    border: none;
+    padding: 5px 50px;
+    font-size: 40px;
+    color: white;
+    border-radius: 30px;
+}
+
+.tokenomics-rest-weapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tokenomics-special-container {
+    border: 10px solid #fe2a2e;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 40px;
+}
+
+.center-margin {
+    margin: 0 2%;
+}

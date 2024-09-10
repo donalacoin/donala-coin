@@ -1,0 +1,65 @@
+.first-section-container {
+    background-image: url('../images/usa_flag.svg');
+    background-size: cover;
+    /* or 'contain', depending on your needs */
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.first-section-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.first-section-image-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 49%;
+}
+
+.first-section-image {
+    height: 500px;
+    filter: drop-shadow(3px 4px 10px rgba(0, 0, 0, 1));
+}
+
+.first-section-text-one {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 23%;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+
+.first-section-text-one h1 {
+    margin: 0;
+    padding: 0;
+    text-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
+}
+
+.first-section-text-two {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section-text-two h2 {
+    margin: 0;
+    padding: 0;
+    text-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
+    letter-spacing: 3px;
+}

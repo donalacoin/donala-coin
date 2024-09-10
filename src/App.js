@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import FirstSection from './sections/FirstSection';
+import SecondSection from './sections/SecondSection';
+import FilmReel from './components/FilmReel';
+import DonalaReel from './components/DonalaReel';
+import ThirdSection from './sections/ThirdSection';
+import RedStrip from './components/RedStrip';
+import FourthSection from './sections/FourthSection';
+import './styles/app.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <FirstSection />
+      <FilmReel />
+      <SecondSection />
+      <DonalaReel />
+      <RedStrip />
+      <ThirdSection />
+      <FourthSection />
     </div>
   );
 }
