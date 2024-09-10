@@ -3,7 +3,7 @@ import '../styles/thirdSection.css';
 
 const ThirdSection = () => {
     return (
-        <div className='third-section-container'>
+        <div id='how' className='third-section-container'>
             <div className='third-section-title'><h2>How to Buy $DONALA</h2></div>
             <div className='how-to-buy'>
                 <div className='buy-item'>

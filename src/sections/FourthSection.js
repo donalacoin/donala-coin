@@ -3,7 +3,7 @@ import '../styles/fourthSection.css';
 
 const FourthSection = () => {
     return (
-        <div className='fourth-section-container'>
+        <div id='tokenomics' className='fourth-section-container'>
             <div className='fourth-section-title'>
                 <h2>Tokenomics</h2>
             </div>

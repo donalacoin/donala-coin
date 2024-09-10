@@ -3,7 +3,7 @@ import '../styles/secondSection.css';
 
 const SecondSection = () => {
     return (
-        <div className='second-section-container'>
+        <div id='about' className='second-section-container'>
             <div className='second-section-title'><h2>About</h2></div>
             <div className='second-section-subsitle'><h3>America's sweethearts are now on the Solana Blockchain!</h3></div>
             <div className='second-section-description'>

@@ -9,10 +9,10 @@ const FifthSection = () => {
             <div className='fifth-section-title'>Check out our socials!</div>
             <div className='fifth-socials-div'>
                 <div className='fifth-x-div'>
-                    <a className='fifth-x-link' href='#'><FontAwesomeIcon icon={faXTwitter} /> X/Twitter</a>
+                    <a className='fifth-x-link' href='https://x.com/DonalaCoin'><FontAwesomeIcon icon={faXTwitter} /> X/Twitter</a>
                 </div>
                 <div className='fifth-telegram-div'>
-                    <a className='fifth-telegram-link' href='#'><FontAwesomeIcon icon={faTelegram} /> Telegram</a>
+                    <a className='fifth-telegram-link' href='https://t.me/donalacoin'><FontAwesomeIcon icon={faTelegram} /> Telegram</a>
                 </div>
             </div>
             <div className='disclaimer-div'>
