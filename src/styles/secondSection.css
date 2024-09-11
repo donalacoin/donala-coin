@@ -63,10 +63,7 @@
 
 @media (max-width: 520px) {
     .second-section-title {
-        font-size: 46px;
-    }
-    .second-section-container {
-        margin-top: 60px;
+        font-size: 38px;
     }
     .second-section-subsitle {
         font-size: 20px;
@@ -78,7 +75,7 @@
         width: 94%;
     }
     .second-section-container {
-        margin-top: 40px;
+        margin-top: 0px;
         padding: 0px 5% 80px 5%;
     }
 }

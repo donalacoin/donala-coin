@@ -5,7 +5,7 @@ const FourthSection = () => {
     const [isCopied, setIsCopied] = useState(false);
 
     const copyToClipboard = () => {
-        navigator.clipboard.writeText("Text to copy")
+        navigator.clipboard.writeText("5Ba8Q1cNSqBgbW2LPenzmP7Rjgu7F6fTDEE8Dw7taebi")
         .then(() => {
             setIsCopied(true);
             setTimeout(() => setIsCopied(false), 2000); // Reset the message after 2 seconds
@@ -24,7 +24,7 @@ const FourthSection = () => {
             <div className='tokenomics-container'>
                 <div className="contact-address-container">
                     <div className='contact-address-first'>
-                        Contact Address:  Aq7FFA33NyHvVem8BsFGPgxL9odxkBEG2Wy7Pk6xJP1o
+                        Contact Address:  5Ba8Q1cNSqBgbW2LPenzmP7Rjgu7F6fTDEE8Dw7taebi
                     </div>
                     <div className='contact-address-second'>
                         <div className='contact-address-copy'>

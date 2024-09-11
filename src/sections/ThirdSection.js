@@ -2,9 +2,18 @@ import React from 'react';
 import redStripBottom from '../images/red_strip_bottom.PNG'
 import redStripTop from '../images/red_strip.png'
 import Raydium from '../images/raydium_clear.png'
+import DexScreener from '../images/dex_screener.png'
 import '../styles/thirdSection.css';
 
 const ThirdSection = () => {
+    const handleDexScreenerClick = () => {
+        window.open('https://www.dexscreener.com/', '_blank')
+    }
+
+    const handleRaydiumClick = () => {
+        window.open('https://raydium.io/swap', '_blank')
+    }
+
     return (
         <div id='how' className='third-section-container'>
             <img className='red-strip-top' src={redStripTop} />
@@ -44,12 +53,16 @@ const ThirdSection = () => {
                 </div>
                 <div className='third-buy-ca'>
                     <div className='third-buy-ca-wrapper'>
-                        <div className='third-button-container'>
+                        <div className='third-button-container dexscreener' onClick={handleDexScreenerClick}>
+                            <img className='raydium-logo' src={DexScreener}></img>
+                            View on Dexscreener
+                        </div>
+                        <div className='third-button-container' onClick={handleRaydiumClick}>
                             <img className='raydium-logo' src={Raydium}></img>
                             Buy on Raydium
                         </div>
                         <div className='third-contact-address'>
-                            CA: Aq7FFA33NyHvVem8BsFGPgxL9odxkBEG2Wy7Pk6xJP1o
+                            CA: 5Ba8Q1cNSqBgbW2LPenzmP7Rjgu7F6fTDEE8Dw7taebi
                         </div>
 
                     </div>

@@ -41,7 +41,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='navbar-buy-container'>
-                        <h3><a href='#'>Buy $Domala</a></h3>
+                        <h3><a href='https://raydium.io/swap'>Buy $Domala</a></h3>
                     </div>
                 </div>
                 {/* <div className='hamburger-menu'>

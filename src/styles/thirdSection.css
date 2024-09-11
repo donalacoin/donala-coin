@@ -30,6 +30,7 @@
 
 .third-button-container {
     display: block;
+    cursor: pointer;
 }
 
 .third-button-container {
@@ -60,6 +61,10 @@
 .raydium-logo {
     height: 46px;
     margin-right: 10px;
+}
+
+.dexscreener {
+    margin-bottom: 30px;
 }
 
 .third-buy-ca {
@@ -165,10 +170,10 @@
 
 @media (max-width: 520px) {
     .third-section-title h2 {
-        font-size: 38px;
+        font-size: 34px;
     }
     .third-section-title {
-        margin: 0 40px;
+        margin: 0 30px;
     }
     .buy-item {
         font-size: 20px;
@@ -194,12 +199,24 @@
         width: 250px;
         font-size: 25px;
         margin-bottom: 20px;
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .third-buy-ca {
+        margin: 0 auto;
     }
     .raydium-logo {
-        height: 40px;
+        height: 36px;
         margin-right: 16px;
     }
     .third-contact-address {
-        font-size: 16px;
+        font-size: 12px;
+    }
+    .how-to-buy {
+        width: 85%;
+        margin-right: 5%;
+    }
+    .buy-description {
+        font-size: 18px;
     }
 }
