@@ -1,7 +1,7 @@
 // Navbar.js
 import React from 'react';
 import '../styles/donalaReel.css';
-import Donala from '../images/donala.PNG'
+import Donala from '../images/DOMALA_strip.PNG'
 
 
 const DonalaReel = () => {
@@ -11,7 +11,7 @@ const DonalaReel = () => {
             <img className='donala-image' src={Donala} alt='Donala'/>
             <img className='donala-image' src={Donala} alt='Donala'/>
             <img className='donala-image' src={Donala} alt='Donala'/>
-            <img className='donala-image' src={Donala} alt='Donala'/>
+            <img className='donala-image disappear' src={Donala} alt='Donala'/>
         </div>
     );
 };

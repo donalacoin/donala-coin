@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className='logo-wrapper'>
                         <img className='donala-logo' src={logo} />
                     </div>
-                    <h1 className='logo-title'>Donala</h1>
+                    <h1 className='logo-title'>Domala</h1>
                 </div>
                 <div className='navbar-nav-container'>
                     <ul className='nav-links-container'>
@@ -31,17 +31,17 @@ const Navbar = () => {
                 <div className='socials-and-buy-container'>
                     <div className="socials-container">
                         <div className='nav-socials-x'>
-                            <a href='https://x.com/DonalaCoin'><FontAwesomeIcon icon={faXTwitter} /></a>
+                            <a href='https://x.com/DomalaCoin'><FontAwesomeIcon icon={faXTwitter} /></a>
                         </div>
                         <div className='nav-socials-telegram'>
                             <div className='telegram-backing'>
 
                             </div>
-                            <a href='https://t.me/donalacoin'><FontAwesomeIcon className='telegram-icon' icon={faTelegram} /></a>
+                            <a href='https://t.me/domalacoin'><FontAwesomeIcon className='telegram-icon' icon={faTelegram} /></a>
                         </div>
                     </div>
                     <div className='navbar-buy-container'>
-                        <h3><a href='#'>Buy $Donala</a></h3>
+                        <h3><a href='#'>Buy $Domala</a></h3>
                     </div>
                 </div>
                 {/* <div className='hamburger-menu'>

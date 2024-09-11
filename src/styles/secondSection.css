@@ -1,7 +1,7 @@
 .second-section-container {
-    margin-top: 250px;
+    margin-top: 200px;
     color: #303c90;
-    padding: 50px 5%;
+    padding: 50px 5% 80px 5%;
 }
 
 .second-section-title {
@@ -48,7 +48,7 @@
         font-size: 54px;
     }
     .second-section-container {
-        margin-top: 100px;
+        margin-top: 0px;
     }
     .second-section-subsitle {
         font-size: 26px;
@@ -76,5 +76,9 @@
     }
     .second-section-description {
         width: 94%;
+    }
+    .second-section-container {
+        margin-top: 40px;
+        padding: 0px 5% 80px 5%;
     }
 }

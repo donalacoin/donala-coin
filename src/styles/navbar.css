@@ -205,4 +205,25 @@
     .navbar-buy-container {
         display: none;
     }
+    .navbar {
+        top: 10px;
+    }
+    .logo-wrapper {
+        height: 38px;
+        width: 38px;
+        border: 1px solid white;
+    }
+    
+    .navbar-image-container {
+        margin-left: 20px;
+    }
+    .logo-title {
+        font-size: 28px;
+    }
+    .nav-socials-x {
+        margin-right: 12px;;
+    }
+    .socials-container {
+        margin-right: 5px;
+    }
 }

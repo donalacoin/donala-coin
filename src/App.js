@@ -17,7 +17,7 @@ function App() {
       <FilmReel />
       <SecondSection />
       <DonalaReel />
-      <RedStrip />
+      {/* <RedStrip /> */}
       <ThirdSection />
       <FourthSection />
       <FifthSection />

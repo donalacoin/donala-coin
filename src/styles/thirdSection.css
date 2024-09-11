@@ -2,9 +2,11 @@
     width: 100%;
     padding-top: 80px;
     background-color: #fe2a2e;
+    background: radial-gradient(circle, #ff686b,#fe2a2e, #fe2a2e, #fe2a2e);
     color: white;
     margin-top: 50px;
     padding-bottom: 80px;
+    position: relative;
 }
 
 .third-section-title {
@@ -17,8 +19,54 @@
     padding: 0;
 }
 
+.third-section-wrapper {
+    display: flex;
+}
+
 .how-to-buy {
-    margin: 20px 50px;
+    width: 60%;
+    margin: 20px 4%;
+}
+
+.third-button-container {
+    display: block;
+}
+
+.third-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.third-button-container {
+    font-size: 30px;
+    padding: 8px 20px 8px 18px;
+    /* width: 400px; */
+    width: 80%;
+    margin: 0 auto;
+    background: #303c90;
+    border-radius: 50px;
+    box-shadow: 3px 5px 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.third-contact-address {
+    text-align: center;
+    font-size: 20px;
+}
+
+.raydium-logo {
+    height: 46px;
+    margin-right: 10px;
+}
+
+.third-buy-ca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .buy-item {
@@ -29,7 +77,7 @@
 }
 
 .buy-number-container {
-    width: 8%;
+    width: 100px;
     margin-right: 1%;
     display: flex;
     justify-content: center;
@@ -50,6 +98,23 @@
     width: 90%;
 }
 
+.red-strip-top {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.red-strip-bottom {
+    position: absolute;
+    /* bottom: -5%; */
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    width: 100%;
+}
+
 @media (max-width: 1250px) {
     .third-section-container {
         padding-top: 70px;
@@ -61,6 +126,14 @@
     }
     .buy-item {
         font-size: 32px;
+    }
+
+    .third-section-wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+    .how-to-buy {
+        width: 100%;
     }
 }
 
@@ -80,17 +153,25 @@
     .buy-number-container {
         width: 80px;
     }
+    .third-button-container {
+        margin-top: 30px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .third-contact-address {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 520px) {
     .third-section-title h2 {
-        font-size: 40px;
+        font-size: 38px;
     }
     .third-section-title {
         margin: 0 40px;
     }
     .buy-item {
-        font-size: 22px;
+        font-size: 20px;
         margin: 20px 0;
     }
     .third-section-container {
@@ -104,6 +185,21 @@
     .buy-number {
         width: 40px;
         height: 40px;
-
+    }
+    .buy-number-container {
+        width: 80px;
+    }
+    .third-button-container {
+        margin-top: 30px;
+        width: 250px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .raydium-logo {
+        height: 40px;
+        margin-right: 16px;
+    }
+    .third-contact-address {
+        font-size: 16px;
     }
 }

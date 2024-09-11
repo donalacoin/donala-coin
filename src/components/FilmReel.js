@@ -8,7 +8,7 @@ const FilmReel = () => {
     return (
         <div className='film-reel-container'>
             <div className='film-reel-wrapper'>
-                <img className='film-reel-image' src={FilmReelImage} alt='Film Reel' />
+                <img className  ='film-reel-image' src={FilmReelImage} alt='Film Reel' />
             </div>
         </div>
     );
