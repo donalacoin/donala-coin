@@ -7,11 +7,11 @@ import '../styles/thirdSection.css';
 
 const ThirdSection = () => {
     const handleDexScreenerClick = () => {
-        window.open('https://www.dexscreener.com/', '_blank')
+        window.open('https://dexscreener.com/solana/95dxkmfttn3czd9ha9ujvkh4q1qjaoyeeq6wmjbw471z', '_blank')
     }
 
     const handleRaydiumClick = () => {
-        window.open('https://raydium.io/swap', '_blank')
+        window.open('https://raydium.io/swap/?outputMint=5Ba8Q1cNSqBgbW2LPenzmP7Rjgu7F6fTDEE8Dw7taebi&inputMint=sol', '_blank')
     }
 
     return (
